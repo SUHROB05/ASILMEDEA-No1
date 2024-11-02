@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans Unicode';
+}
+
+.contener {
+    width: 80%;
+    margin: 0 auto;
+}
+
+body {
+    background-image: url(img/images_orqa\ fon.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#header {
+    color: #fff;
+    background-color: rgb(2, 14, 54);
+    justify-content: space-between;
+    border-bottom: 5px solid coral;
+}
+
+.asosiy_kanstuktor{
+    max-width: 1400px;
+}
+
+.header__inner {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
+    justify-content: space-between;
+    /* display: inline-block; */
+}
+
+#img1 {
+    width: 50px;
+    margin: 25px;
+    display: inline-block;
+    /* margin-top: 60px; */
+}
+
+#header h1 {
+    width: 200px;
+    display: inline-block;
+    /* margin: 10px; */
+}
+
+.navbar {
+    float: right;
+    align-items: center;
+}
+
+.navbar li {
+    display: inline;
+}
+
+
+
+.navbar li a {
+    color: #fff;
+    padding: 10px 15px;
+    display: inline-block;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+
+
+.navbar li a:hover {
+    color: chocolate;
+}
+
+/* .navbar img{
+    margin: 25px !important;
+    box-sizing: border-box;
+    display: inline-block;
+} */
+
+#kinolar {
+    margin-top: 60px;
+}
+
+#sarlavha_kinolar {
+    background-color: rgb(6, 6, 49);
+    color: #fff;
+    text-align: center;
+}
+
+.blok_kino {
+    width: 20%;
+    float: left;
+    box-sizing: border-box;
+    align-items: center;
+    margin-top: 20px;
+    /* background-color: aqua; */
+}
+
+.kino_bolim {
+    width: 90%;
+    float: left;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0.745);
+}
+
+.kino_bolim img {
+    width: 90%;
+    margin: 0 5%;
+}
+
+.kino_bolim a h4,
+p {
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+    font-family: sans-serif;
+    padding: 5px;
+}
+
+
+
+/* ///////////////////////////////////////////////////// */
+/* kinolar */
+
+#kinolar_sarlavha {
+    text-align: center;
+    color: #fff;
+    background-color: rgb(2, 14, 54);
+    padding: 10px;
+}
+
+
+
+/* //////////////////////////////////////////////////////// */
+
+
+
+
+
+/* //////////////////////////////////////////////////////// */
+.active {
+    color: chocolate !important;
+}
+
+#futer {
+    background-color: rgb(2, 14, 54);
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+    width: 100% !important;
+}
+
+.cler {
+    clear: both;
+}
+
+.joytashlash {
+    margin: 20px;
+    text-align: center;
+}
+
+.joytashlash a {
+    text-decoration: none;
+    font-family: sans-serif;
+    color: blue;
+}
+
+.joytashlash a h4 {
+    background-color: coral;
+    display: inline-block;
+    padding: 10px 25px;
+}
